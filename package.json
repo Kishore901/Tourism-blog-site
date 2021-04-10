@@ -1,7 +1,27 @@
 {
+  "name": "Tourism-blog-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
   "dependencies": {
     "ejs": "^3.1.6",
-    "express": "^4.17.1",
+    "express": "^4.17.1"
+  },
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kishore901/Tourism-blog-site.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kishore901/Tourism-blog-site/issues"
+  },
+  "homepage": "https://github.com/Kishore901/Tourism-blog-site#readme",
+  "devDependencies": {
     "nodemon": "^2.0.7"
   }
 }
