@@ -1,186 +1,179 @@
 body {
   background-color: #36096d;
   background-image: linear-gradient(315deg, #36096d 0%, #37d5d6 74%);
-  
 }
 
 nav {
-    -webkit-box-shadow: 0 8px 6px -6px rgb(105, 104, 104);
-    -moz-box-shadow: 0 8px 6px -6px rgb(105, 104, 104);
-    box-shadow: 0 8px 6px -6px rgb(105, 104, 104);
+  -webkit-box-shadow: 0 8px 6px -6px rgb(105, 104, 104);
+  -moz-box-shadow: 0 8px 6px -6px rgb(105, 104, 104);
+  box-shadow: 0 8px 6px -6px rgb(105, 104, 104);
 }
 
 .swiper-container {
-    height: 650px;
+  height: 650px;
 }
 
 .swiper-slide {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: large;
-    background-repeat: no-repeat;
-    background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: large;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 #slide1 {
-    background-image: url(images/img3.jpg);
-    background-size: 100vw;
-
+  background-image: url(images/img3.jpg);
+  background-size: 100vw;
 }
 
 #slide2 {
-    background-image: url(images/img2.jpg);
-    background-size: 100vw;
-    background-position: center top;
-
-
+  background-image: url(images/img2.jpg);
+  background-size: 100vw;
+  background-position: center top;
 }
 
 #slide3 {
-    background-image: url(images/img1.jpg);
-    background-size: 100vw;
-
+  background-image: url(images/img1.jpg);
+  background-size: 100vw;
 }
 
 #slide4 {
-    background-image: url(images/img4.jpg);
-    background-size: 100vw;
-
+  background-image: url(images/img4.jpg);
+  background-size: 100vw;
 }
 
 #slide5 {
-    background-image: url(images/img5.jpg);
-    background-size: 100vw;
-
+  background-image: url(images/img5.jpg);
+  background-size: 100vw;
 }
 
 .container {
-    background-color: #eee;
-    margin: 20px auto;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-auto-rows: 300px;
+  background-color: #eee;
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 300px;
 
-    padding: 1rem;
-    border-radius: 10px;
-    gap:10px 10px;
+  padding: 1rem;
+  border-radius: 10px;
+  gap: 10px 10px;
 }
 
 .item {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 10px;
-    margin: 0.3rem 0;
-    transition: all 0.7s ease;
-    font-size: 4rem;
-    color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  margin: 0.3rem 0;
+  transition: all 0.7s ease;
+  font-size: 4rem;
+  color: white;
 }
-a{
+a {
   text-decoration: none;
 }
 
-.item1{
+.item1 {
   background: url(images/img10.jpg);
   background-size: cover;
 }
-.item2{
+.item2 {
   background: url(images/img8.jpg);
   background-size: cover;
 }
-.item3{
+.item3 {
   background: url(images/img7.jpg);
   background-size: cover;
 }
-.item4{
+.item4 {
   background: url(images/img11.jpg);
   background-size: cover;
 }
-.item5{
+.item5 {
   background: url(images/img12.jpg);
   background-size: cover;
 }
-.item6{
+.item6 {
   background: url(images/img13.jpg);
   background-size: cover;
 }
-.item7{
+.item7 {
   background: url(images/img15.jpg);
   background-size: cover;
 }
-.item8{
+.item8 {
   background: url(images/img16.jpg);
   background-size: cover;
 }
-.item9{
+.item9 {
   background: url(images/img17.jpg);
   background-size: cover;
 }
-.item10{
+.item10 {
   background: url(images/img18.jpg);
   background-size: cover;
 }
-.item11{
+.item11 {
   background: url(images/img20.jpg);
   background-size: cover;
 }
-.item:hover{
+.item:hover {
   cursor: pointer;
   background: black;
   color: white;
 }
-button {
-    position: absolute;
-    bottom: 68%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 3;
-    background: transparent;
-    border: none;
-    color: white;
-    outline: none;
-    padding: 1rem;
-    font-size: 2rem;
-    animation: textgrowth 1s infinite alternate;
-    background-color: white;
-    color: black;
-    opacity: 0.7;
-    letter-spacing: 1px;
+.carousel-btn {
+  position: absolute;
+  bottom: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+  background: transparent;
+  border: none;
+  color: white;
+  outline: none;
+  padding: 1rem;
+  font-size: 2rem;
+  animation: textgrowth 1s infinite alternate;
+  background-color: white;
+  color: black;
+  opacity: 0.7;
+  letter-spacing: 1px;
 }
 
-button:hover {
-    opacity: 1;
+.carousel-btn:hover {
+  opacity: 1;
 }
 
 @keyframes textgrowth {
-    0% {
-        font-size: 20px;
-    }
-    100% {
-        font-size: 21px;
-    }
+  0% {
+    font-size: 20px;
+  }
+  100% {
+    font-size: 21px;
+  }
 }
 
-@media only screen and (max-width:600px) {
-    #slide1,
-    #slide2,
-    #slide3,
-    #slide4,
-    #slide5 {
-        background-size: cover;
-    }
-    #slide3 {
-        background-position: center left;
-    }
-    .container {
-        grid-template-columns: repeat(1, 1fr);
-    }
-    button {
-        bottom: 86%;
-        left: 50%;
-    }
-    .item{
-      font-size: 3rem;
-    }
+@media only screen and (max-width: 600px) {
+  #slide1,
+  #slide2,
+  #slide3,
+  #slide4,
+  #slide5 {
+    background-size: cover;
+  }
+  #slide3 {
+    background-position: center left;
+  }
+  .container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .carousel-btn {
+    bottom: 88%;
+    left: 50%;
+  }
+  .item {
+    font-size: 3rem;
+  }
 }
