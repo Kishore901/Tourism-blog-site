@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500&display=swap");
 body {
   background-color: #36096d;
   background-image: linear-gradient(315deg, #36096d 0%, #37d5d6 74%);
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 nav {
@@ -11,6 +11,10 @@ nav {
   box-shadow: 0 8px 6px -6px rgb(105, 104, 104);
 }
 
+.navbar {
+  padding: 0;
+  margin: -15px 0 -20px;
+}
 .nav-quote {
   font-size: 1.3rem;
   font-style: italic;
@@ -27,6 +31,10 @@ nav {
   font-size: large;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.logo {
+  width: 100px;
 }
 
 #slide1 {
@@ -200,7 +208,7 @@ a {
 }
 
 .placeheaderparent {
-  width: 100vw;
+  width: 97vw;
   display: flex;
   justify-content: flex-end;
 }
